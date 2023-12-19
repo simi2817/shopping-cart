@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders a message 1`] = `
+<div>
+  <div
+    class="navigation"
+  >
+    <nav>
+      <a
+        class="navLink"
+        href="/about"
+      >
+        About-Us
+      </a>
+      <a
+        class="navLink"
+        href="/categories"
+      >
+        Categories
+      </a>
+      <a
+        class="navLink"
+        href="/cart"
+      >
+        Cart
+      </a>
+    </nav>
+  </div>
+</div>
+`;

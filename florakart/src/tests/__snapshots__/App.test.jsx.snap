@@ -1,0 +1,58 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > renders headline 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <h1
+      class="header"
+    >
+      Flora-Kart
+    </h1>
+    <div
+      class="navigation"
+    >
+      <nav>
+        <a
+          class="navLink"
+          href="/about"
+        >
+          About-Us
+        </a>
+        <a
+          class="navLink"
+          href="/categories"
+        >
+          Categories
+        </a>
+        <a
+          class="navLink"
+          href="/cart"
+        >
+          Cart
+        </a>
+      </nav>
+    </div>
+    <br />
+    <p>
+      Welcome to 
+      <b>
+        Flora-Kart
+      </b>
+      !
+    </p>
+    <br />
+    <img
+      alt="plant-gif"
+      src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDA1cnNwMWp3MHdrcGlvbDZhNGg4YTE0Nzh2NWZ5dDcxdjdwNncydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ckAhX7LBZrhst2mG2j/giphy.gif"
+    />
+    <p>
+      <b>
+        Flora-Kart
+      </b>
+       helps you discover the best plants for your space, delivers them to your door and helps you look after them.
+    </p>
+  </div>
+</div>
+`;
