@@ -5,12 +5,14 @@ import Cart from "./Cart";
 import CategoryCard from './CategoryCard';
 import OrderPlaced from "./OrderPlaced";
 import AboutUs from "./AboutUs";
+import ErrorPage from './ErrorPage';
 
 const Router = () => {
     const router = createBrowserRouter([
         {
             path: '/',
             element: <App />,
+            errorElement: <ErrorPage />,
         },
         {
             path: 'about',
